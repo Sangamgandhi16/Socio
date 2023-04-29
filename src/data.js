@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      name: "Nike",
+      name: "Nike shirt",
       slug: "nike-Slim-Shirt",
       Category: "Shirts",
       image: "/images/p1.jpg",
@@ -13,7 +13,7 @@ const data = {
       description: "high Quality Shirt",
     },
     {
-      name: "Adidas",
+      name: "Adidas shoes",
       slug: "Shoes",
       Category: "Shoes",
       image: "/images/p2.jpg",
@@ -25,7 +25,7 @@ const data = {
       description: "high Quality Shoes",
     },
     {
-      name: "Reebok",
+      name: "Reebok socks",
       slug: "nike-Socks",
       Category: "Socks",
       image: "/images/p3.jpg",
@@ -38,3 +38,4 @@ const data = {
     },
   ],
 };
+export default data;

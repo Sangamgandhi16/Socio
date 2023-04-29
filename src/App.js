@@ -1,10 +1,25 @@
+import data from "./data";
+
 function App() {
   return (
     <div>
       <header>
         <a href="/">Socio</a>;
       </header>
-      <main>list products here</main>
+      <main>
+        <h1>Featured Products</h1>
+        <div className="products">
+          {data.products.map((product) => (
+            <div className="product" key={product.slug}>
+              <div className="product-info">
+                <img src={product.image} alt={product.name} />
+                <p>{product.name}</p>
+                <p>{product.price}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </main>
     </div>
   );
 }
